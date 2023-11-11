@@ -1,0 +1,41 @@
+
+body {
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  box-sizing: border-box;
+}
+
+
+
+main{
+  display: inline-block;
+  padding: 20px;
+  border: 2px solid dodgerblue;
+  border-radius: 10px;
+}
+main div{
+  width: 150px;
+  height: 30px;
+  background-color: dodgerblue;
+  border-radius: 30px;
+  margin: 8px 0;
+  transition: .3s;
+}
+
+.change .bar1{
+  transform: translate(0,38px) rotate(45deg);
+}
+.change .bar3{
+  transform: translate(0,-38px) rotate(-45deg);
+}
+.change .bar2{
+  transform: translateX(-20px);
+  opacity: 0;
+}
